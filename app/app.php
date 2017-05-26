@@ -9,6 +9,11 @@
     'twig.path' => __DIR__.'/../views'
 ));
 
+//Get input route
+$app->get("/", function() use ($app){
+  return $app['twig']->render('input.html.twig'));
+});
+
 
 });
 
