@@ -6,11 +6,19 @@
     <title>Word Counter</title>
   </head>
   <body>
-    <h1>Word Counter<h1>
-    <ul>
-      <li>Your string : {{ sentence }}</li>
-      <li>Your word: {{ word }}</li>
-      <li>The number of times your word appears in your string: {{ result }}</li>
-    </ul>
+      <div class="container">
+        <h1 class=jumbotron>Word Counter</h1>
+            <div class="panel panel-warning">
+              <div class="panel-heading">Your result</div>
+              <div class="panel-body">
+                <ul>
+                  <li>Your string : {{ sentence }}</li>
+                  <li>Your word: {{ word }}</li>
+                  <li>The number of times your word appears in your string: {{ result }}</li>
+                </ul>
+              </div>
+            </div>
+            <a href="/">Go back to homepage</a>
+      </div>
   </body>
 </html>
