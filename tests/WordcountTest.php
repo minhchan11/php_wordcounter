@@ -13,5 +13,16 @@
 
       $this->assertEquals($expected,$actual);
     }
+
+    function test_toLowerWord()
+    {
+      $testCounter = new RepeatCounter();
+      $sentence = "HeLLO";
+
+      $expected = "hello";
+      $actual = $testCounter->toLower($sentence);
+
+      $this->assertEquals($expected,$actual);
+    }
   }
  ?>
