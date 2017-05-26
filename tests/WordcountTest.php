@@ -24,5 +24,17 @@
 
       $this->assertEquals($expected,$actual);
     }
+
+    function test_splitString()
+    {
+      $testCounter = new RepeatCounter();
+      $sentence = "Hello How Are You ?";
+
+      $expected = array("hello","how","are","you","?");
+      $lowerCase = $testCounter->toLower($sentence);
+      $actual = $testCounter->splitString($lowerCase);
+
+      $this->assertEquals($expected,$actual);
+    }
   }
  ?>
