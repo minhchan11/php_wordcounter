@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.jumbotron {
+  /*background-image: url(http://blog.verticalresponse.com/wp-content/uploads/2015/11/words-blog2.jpg);*/
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+              url(http://blog.verticalresponse.com/wp-content/uploads/2015/11/words-blog2.jpg);
+  background-size: cover;
+  font-size: 4em;
+  color: white;
+  text-align: center;
+}
