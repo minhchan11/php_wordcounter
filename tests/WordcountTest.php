@@ -1,7 +1,7 @@
 <?php
   require_once "src/RepeatCounter.php";
 
-  class wordcount_test extends PHPUnit_Framework_TestCase
+  class WordcountTest extends PHPUnit_Framework_TestCase
   {
     function test_toLowerSentence()
     {
