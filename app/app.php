@@ -11,7 +11,7 @@
 
   //Get input route
   $app->get("/", function() use ($app){
-    return $app['twig']->render('input.html.twig'));
+    return $app['twig']->render('input.html.twig');
   });
 
   //Post output route
